@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/pokewiz/static/css/main.dc492cb6.chunk.css",
-    "main.js": "/pokewiz/static/js/main.49f49e87.chunk.js",
-    "main.js.map": "/pokewiz/static/js/main.49f49e87.chunk.js.map",
+    "main.js": "/pokewiz/static/js/main.4de948c5.chunk.js",
+    "main.js.map": "/pokewiz/static/js/main.4de948c5.chunk.js.map",
     "runtime-main.js": "/pokewiz/static/js/runtime-main.1caa4c3d.js",
     "runtime-main.js.map": "/pokewiz/static/js/runtime-main.1caa4c3d.js.map",
-    "static/js/2.7d968490.chunk.js": "/pokewiz/static/js/2.7d968490.chunk.js",
-    "static/js/2.7d968490.chunk.js.map": "/pokewiz/static/js/2.7d968490.chunk.js.map",
+    "static/js/2.fc4d114c.chunk.js": "/pokewiz/static/js/2.fc4d114c.chunk.js",
+    "static/js/2.fc4d114c.chunk.js.map": "/pokewiz/static/js/2.fc4d114c.chunk.js.map",
     "index.html": "/pokewiz/index.html",
     "static/css/main.dc492cb6.chunk.css.map": "/pokewiz/static/css/main.dc492cb6.chunk.css.map",
-    "static/js/2.7d968490.chunk.js.LICENSE.txt": "/pokewiz/static/js/2.7d968490.chunk.js.LICENSE.txt"
+    "static/js/2.fc4d114c.chunk.js.LICENSE.txt": "/pokewiz/static/js/2.fc4d114c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1caa4c3d.js",
-    "static/js/2.7d968490.chunk.js",
+    "static/js/2.fc4d114c.chunk.js",
     "static/css/main.dc492cb6.chunk.css",
-    "static/js/main.49f49e87.chunk.js"
+    "static/js/main.4de948c5.chunk.js"
   ]
 }
