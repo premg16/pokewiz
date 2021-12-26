@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokewiz/static/css/main.f84bbb41.chunk.css",
-    "main.js": "/pokewiz/static/js/main.40348ae7.chunk.js",
-    "main.js.map": "/pokewiz/static/js/main.40348ae7.chunk.js.map",
+    "main.js": "/pokewiz/static/js/main.5909ab52.chunk.js",
+    "main.js.map": "/pokewiz/static/js/main.5909ab52.chunk.js.map",
     "runtime-main.js": "/pokewiz/static/js/runtime-main.1caa4c3d.js",
     "runtime-main.js.map": "/pokewiz/static/js/runtime-main.1caa4c3d.js.map",
     "static/js/2.bc32567e.chunk.js": "/pokewiz/static/js/2.bc32567e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1caa4c3d.js",
     "static/js/2.bc32567e.chunk.js",
     "static/css/main.f84bbb41.chunk.css",
-    "static/js/main.40348ae7.chunk.js"
+    "static/js/main.5909ab52.chunk.js"
   ]
 }
