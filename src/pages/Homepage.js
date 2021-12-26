@@ -13,27 +13,26 @@ const Homepage = () => {
     const [loading, setLoading] = useState(true)
     const [nextcount, setNextCount]     = useState()
     const [prevcount, setPrevCount]     = useState(1)
-    const [nextPageUrl, setNextPageUrl] = useState()
-    const [prevPageUrl, setPrevPageUrl] = useState()
-
+    let max = 898
 
     let count = 1
     let pokemonArray = []
 
 
+    console.log(max)
+
+
     const getPokemonList = async () => {
-        for (let i = count; i < count + 9; i++) {
+        for (let i = count; i < count + 6; i++) {
             pokemonArray.push(await getPokemonData(i))
         }
         setPokemon(pokemonArray)
         setLoading(false)
-        setNextCount(count+9)
+        setNextCount(count+6)
         setPrevCount(1)
     }
 
     const getPokemonData = async (id) => {
-        const urlRes = await axios.get(`https://pokeapi.co/api/v2/pokemon?limit=${count}`)
-        setNextPageUrl()
         const res = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`)
         return res
     }
@@ -44,26 +43,34 @@ const Homepage = () => {
 
     const gotoNextPage = async () => {
         setLoading(true)
-        setPrevCount(nextcount)
-        for (let i = nextcount; i < nextcount + 9; i++) {
+        for (let i = nextcount; i < nextcount + 6; i++) {
             pokemonArray.push(await getPokemonData(i))
         }
         setPokemon(pokemonArray)
         setLoading(false)
-        setNextCount(nextcount+9)
-        console.log(nextcount)
-        console.log(prevcount)
+        setPrevCount(nextcount-6)
+        if (nextcount + 6 == max) {
+            setNextCount(nextcount)
+        }
+        else {
+            setNextCount(nextcount+6)
+        }       
     }
 
     const gotoPrevPage = async () => {
         setLoading(true)
-        setNextCount(prevcount)
-        for (let i = prevcount; i < prevcount + 9; i++) {
+        for (let i = prevcount; i < prevcount + 6; i++) {
             pokemonArray.push(await getPokemonData(i))
         }
         setPokemon(pokemonArray)
         setLoading(false)
-        setPrevCount()
+        if (prevcount == 1) {
+            setPrevCount(prevcount)
+        }
+        else {
+            setPrevCount(prevcount-6)
+        }
+        setNextCount(prevcount+6)
         console.log(nextcount)
         console.log(prevcount)
     }

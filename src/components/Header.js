@@ -1,18 +1,19 @@
 import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Navbar, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import { AppBar } from '@material-ui/core'
 
 const Header = () => {
     return (
-        <header>
-            <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
+        <>
+            <AppBar position="static" color="primary" className="p-2" >
                 <Container>
-                    <LinkContainer to="/">
-                        <Navbar.Brand>PokeWiz</Navbar.Brand>
+                    <LinkContainer to="/pokewiz">
+                        <h1>PokeWiz</h1>
                     </LinkContainer>
                 </Container>
-            </Navbar>
-        </header>
+            </AppBar>
+        </>
     )
 }
 

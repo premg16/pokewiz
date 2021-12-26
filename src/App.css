@@ -5,7 +5,7 @@
 }
 
 #root {
-  background-color: rgb(240, 240, 240);
+  background-color: #f0f0f0;
 }
 
 .link-name {
@@ -16,69 +16,69 @@
 
 .link-name:hover {
   cursor: pointer;
-  color: rgb(227, 227, 227);
+  color: #e3e3e3;
 }
 
 /* Extra Background Colors */
 .grass {
-  background-color: rgb(38, 235, 90);
+  background-color: #26eb5a;
 }
 
 .fire {
-  background-color: rgb(235, 71, 38);
+  background-color: #eb4726;
 }
 
 .water {
-  background-color: rgb(38, 186, 235);
+  background-color: #26baeb;
 }
 
 .electric {
-  background-color: rgb(235, 209, 38);
+  background-color: #ebd126;
 }
 
 .ice {
-  background-color: rgb(38, 219, 235);
+  background-color: #26dbeb;
 }
 
 .fighting {
-  background-color: rgb(235, 104, 38);
+  background-color: #eb6826;
 }
 
 .poison {
-  background-color: rgb(176, 38, 235);
+  background-color: #b026eb;
 }
 .ground {
-  background-color: rgb(181, 131, 92);
+  background-color: #b5835c;
 }
 
 .flying {
-  background-color: rgb(161, 215, 230);
+  background-color: #a1d7e6;
 }
 
 .psychic {
-  background-color: rgb(219, 77, 207);
+  background-color: #db4dcf;
 }
 
 .ghost {
-  background-color: rgb(131, 24, 133);
+  background-color: #831885;
 }
 
 .bug {
-  background-color: rgb(113, 209, 10);
+  background-color: #71d10a;
 }
 
 .rock {
-  background-color: rgb(166, 87, 8);
+  background-color: #a65708;
 }
 
 .dragon {
-  background-color: rgb(50, 24, 217);
+  background-color: #3218d9;
 }
 
 .normal {
-  background-color: rgb(168, 162, 157);
+  background-color: #a8a29d;
 }
 
 .fairy {
-  background-color: rgb(255, 148, 191);
+  background-color: #ff94bf;
 }
