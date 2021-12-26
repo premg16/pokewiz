@@ -7,7 +7,7 @@ const pokemon = ({ pokemon }) => {
     return (
         <>
             <Card className={`${pokemon.types[0].type.name} my-3 p-3 rounded text-center shadow p-3 mb-3 rounded`} style={{ border: 'none' }}>
-                <Link to={`/pokewiz/pokemon/${pokemon.id}/`}>
+                <Link to={`/pokemon/${pokemon.id}/`}>
                     <Card.Img style={{ width: '8rem' }} src={pokemon.sprites.other.home.front_default} variant='top'/>
                 </Link>
                 <Card.Body className={`${pokemon.types[0].type.name} rounded text-white`}>

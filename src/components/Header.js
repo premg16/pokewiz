@@ -6,9 +6,9 @@ import { AppBar } from '@material-ui/core'
 const Header = () => {
     return (
         <>
-            <AppBar position="static" color="primary" className="p-2" >
+            <AppBar position="static" color="primary" className="p-2 link-name" >
                 <Container>
-                    <LinkContainer to="/pokewiz/">
+                    <LinkContainer to="/">
                         <h1>PokeWiz</h1>
                     </LinkContainer>
                 </Container>
