@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 
 // Pages
@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <Header/>
       <Container>
-        <Route exact path='/pokewiz' component={Homepage} />
+        <Route exact path='/pokewiz/' component={Homepage} />
         <Route path='/pokewiz/pokemon/:id/' component={PokemonPage}/>
       </Container>
     </Router>

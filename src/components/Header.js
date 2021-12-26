@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <AppBar position="static" color="primary" className="p-2" >
                 <Container>
-                    <LinkContainer to="/pokewiz">
+                    <LinkContainer to="/pokewiz/">
                         <h1>PokeWiz</h1>
                     </LinkContainer>
                 </Container>
