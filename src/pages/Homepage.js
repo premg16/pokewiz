@@ -18,10 +18,6 @@ const Homepage = () => {
     let count = 1
     let pokemonArray = []
 
-
-    console.log(max)
-
-
     const getPokemonList = async () => {
         for (let i = count; i < count + 6; i++) {
             pokemonArray.push(await getPokemonData(i))
@@ -71,8 +67,6 @@ const Homepage = () => {
             setPrevCount(prevcount-6)
         }
         setNextCount(prevcount+6)
-        console.log(nextcount)
-        console.log(prevcount)
     }
 
     return (
