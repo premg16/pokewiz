@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
-#root {
+
+html, #root {
   background-color: #f0f0f0;
+  font-family: 'Comfortaa', cursive;
 }
 
 .link-name {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
+  font-family: 'Comfortaa', cursive;
 }
 
 .link-name:hover {
   cursor: pointer;
   color: #e3e3e3;
+  font-family: 'Comfortaa', cursive;
 }
 
 /* Extra Background Colors */
@@ -81,4 +85,13 @@
 
 .fairy {
   background-color: #ff94bf;
+}
+
+.img {
+  width : 150px;
+  height: 150px;
+}
+
+.mtop{
+  margin-top: 10vh;
 }

@@ -32,12 +32,12 @@ const PokemonPage = ({ match }) => {
             {loading ? (
                 <Loader />
             ) : (
-                <Row>
+                <Row className='mtop'>
                     <Col xs={12} sm={12} md={12} lg={12} xl={12}>
-                        <Card className='rounded text-center shadow p-1 m-3 bg-white' style={{ border: 'none' }}>
+                        <Card className='rounded text-center shadow pt-1 m-3 bg-white' style={{ border: 'none' }}>
                             <Card.Body className={`rounded text-black font-weight-bold`}>
-                                <Card.Img style={{ width: '15rem' }} src={pokemonDetails.sprites.other.home.front_default} variant='top' />
-                                <Card.Title as='div'>
+                                <Card.Img style={{ width: '15rem' }} src={pokemonDetails.sprites.other.home.front_default} className="mb-3" variant='top' />
+                                <Card.Title as='div' className="mb-2">
                                     <strong>#{pokemonDetails.id} {pokemonDetails.name.charAt(0).toUpperCase() + pokemonDetails.name.slice(1)}</strong>
                                 </Card.Title>
                                 <Card.Text>
